@@ -1,0 +1,42 @@
+/* HomeScreen.css */
+
+.home-container {
+  width: 100%;
+  max-width: 1400px; /* Adjusted maximum width */
+  margin: auto;
+  padding: 10px;
+  background-color: #fff; /* Add a background color */
+}
+
+.home-header {
+  display: flex;
+  align-items: center;
+}
+
+.home-logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.home-menu button {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: lightblue;
+  border: none;
+}
+
+.font_arvo {
+  font-family: 'Arvo', serif;
+  font-style: italic;
+  font-weight: 500;
+  white-space: nowrap;
+  text-align: center;
+  margin: 0;
+}

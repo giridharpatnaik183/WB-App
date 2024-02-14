@@ -1,0 +1,282 @@
+/* GateEntry.css */
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #f0f0f0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+}
+
+.form-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the form horizontally */
+    margin-left: 20px;
+}
+
+.form-top label {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.form-top input {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.form-bottom {
+    display: flex;
+    justify-content: center; /* Center the camera horizontally */
+    align-items: center; /* Center the camera vertically */
+    padding: 10px;
+    margin-bottom: -1500px;
+}
+
+.form-left {
+    width: 50%;
+}
+
+.form-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column; /* Change to column to stack the buttons */
+    align-items: flex-end; /* Align items to the right side */
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.form-group select {
+    width: 200px;
+}
+
+.camera {
+    height: 300px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button {
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: lightblue;
+    border: none;
+}
+
+.font_arvo {
+    font-family: 'Arvo', serif;
+    font-style: italic;
+    font-weight: 700;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0;
+}
+
+.form-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: normal; /* Align items to the left side */
+}
+
+.camera {
+    height: 100px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align buttons to the right */
+}
+
+.buttons button {
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(43, 189, 238);
+    border: none;
+}
+
+.form-top {
+    display: flex;
+    justify-content: center; /* Center the form horizontally */
+    margin-left: 20px;
+    background-color: #f0f0f0; /* Set the same background color */
+}
+
+.form-bottom {
+    display: flex;
+    justify-content: center; /* Center the camera horizontally */
+    align-items: center; /* Center the camera vertically */
+    padding: 10px;
+}
+
+.container {
+    position: relative;
+}
+
+.rectangular-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px; /* Adjust the width as needed */
+    height: 250px; /* Adjust the height as needed */
+    background-color: #ccc; /* Change color as needed */
+    border: 1px solid #000; /* Add border if needed */
+    transform: translate(-50%, -50%);
+    margin-left: 26px;
+    margin-top: 150px;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 10px; /* Adjusted margin */
+}
+
+.form-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the form horizontally */
+    margin-left: 20px;
+}
+
+.form-top label {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.form-top input {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.form-bottom {
+    display: flex;
+    justify-content: center; /* Center the camera horizontally */
+    align-items: center; /* Center the camera vertically */
+    padding: 10px;
+}
+
+.form-left {
+    width: 50%;
+}
+
+.form-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column; /* Change to column to stack the buttons */
+    align-items: flex-end; /* Align items to the right side */
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.form-group select {
+    width: 200px;
+}
+
+.camera {
+    height: 300px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons button {
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: lightblue;
+    border: none;
+}
+
+.font_arvo {
+    font-family: 'Arvo', serif;
+    font-style: italic;
+    font-weight: 700;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px; /* Adjusted margin */
+}
+
+.font_arvo h2 {
+    font-family: 'Arvo', serif;
+    font-style: italic;
+    font-weight: 700;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0;
+}
+
+/* Additional styles for other elements inside .font_arvo if needed */
+
+.logo {
+    width: 100px;
+    height: 80px;
+    margin-left: 0; /* No margin */
+}
+
+.font_arvo {
+    font-family: 'Arvo', serif;
+    font-style: italic;
+    font-weight: 550;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0;
+    margin-left: 0; /* No margin */
+}
+
+
